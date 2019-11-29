@@ -17,16 +17,19 @@ To play with the app right away, you can use a local database. Edit ```config.py
 ```
 SQLALCHEMY_DATABASE_URI = 'sqlite:///test.db'
 ```
+Or you can use a remote database. Edit ```config.py``` by changing the AWS URL with a correct AWS connection string:
+```
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://{username}:{password}@{endpoint}:3306/{db name}'
+```
 Next run:
 ```
 $ python db_create.py
 ```
-And the tables are created.  Now you can launch the app:
+And the tables are created.  Now you can launch the app locally:
 ```
 $ python application.py
 ```
-And point your browser to http://0.0.0.0:5000
-
+And point your browser to http://0.0.0.0:5000.
 Using the top form, you can write to the database:
 
 ![Site main page](http://i.imgur.com/2d66GIB.png)
@@ -41,4 +44,4 @@ Using the bottom form, you can see the last 1 to 9 entires of the database in re
 
 ![results](http://i.imgur.com/LFJeKDz.png)
 
-
+Or if you are using a cloud environment, just run the application there.
