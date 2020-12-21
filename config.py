@@ -5,10 +5,10 @@
 SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://admin:pnQ1hsf5yvG0L8lUUiMY@finaldb.cwrfhv27jae7.us-east-1.rds.amazonaws.com:3306/flaskapp'
 
 # Uncomment the line below if you want to work with a local DB
-#SQLALCHEMY_DATABASE_URI = 'sqlite:///test.db'
+SQLALCHEMY_DATABASE_URI = 'sqlite:///test.db'
 
 SQLALCHEMY_POOL_RECYCLE = 3600
 
 WTF_CSRF_ENABLED = True
-SECRET_KEY = '58jQZpPmedHtUyPX21L/FH/R0r/0PvGOaiha9cA7'
+SECRET_KEY = 'Zgcuhdl6gyuXST/uvIu4O2cq48lwQoXwEt/VXlq7'
 
