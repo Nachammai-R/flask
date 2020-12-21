@@ -10,5 +10,5 @@ SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://admin:pnQ1hsf5yvG0L8lUUiMY@finaldb.cw
 SQLALCHEMY_POOL_RECYCLE = 3600
 
 WTF_CSRF_ENABLED = True
-SECRET_KEY = 'Zgcuhdl6gyuXST/uvIu4O2cq48lwQoXwEt/VXlq7'
+SECRET_KEY = '58jQZpPmedHtUyPX21L/FH/R0r/0PvGOaiha9cA7'
 
