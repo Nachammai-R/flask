@@ -5,9 +5,10 @@ from application.forms import EnterDBInfo, RetrieveDBInfo
 
 # Elastic Beanstalk initalization
 application = Flask(__name__)
+
 application.debug=True
 # change this to your own value
-application.secret_key = 'cC1YCIWOj9GgWspgNEo2'   
+application.secret_key = 'Zgcuhdl6gyuXST/uvIu4O2cq48lwQoXwEt/VXlq7'   
 
 @application.route('/', methods=['GET', 'POST'])
 @application.route('/index', methods=['GET', 'POST'])
